@@ -1,10 +1,10 @@
 {
-  "name": "appstore-connect-mcp",
+  "name": "asc-mcp-server",
   "version": "1.0.0",
   "description": "MCP server for Apple App Store Connect API",
   "type": "module",
   "bin": {
-    "appstore-connect-mcp": "./build/index.js"
+    "asc-mcp-server": "./build/index.js"
   },
   "scripts": {
     "build": "tsc",

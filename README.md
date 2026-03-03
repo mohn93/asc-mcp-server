@@ -20,7 +20,7 @@ claude mcp add appstore-connect \
   --env ASC_KEY_ID=YOUR_KEY_ID \
   --env ASC_ISSUER_ID=YOUR_ISSUER_ID \
   --env ASC_PRIVATE_KEY_PATH=/absolute/path/to/AuthKey.p8 \
-  -- npx -y appstore-connect-mcp
+  -- npx -y asc-mcp-server
 ```
 
 </details>
@@ -40,7 +40,7 @@ Add to your `claude_desktop_config.json`:
   "mcpServers": {
     "appstore-connect": {
       "command": "npx",
-      "args": ["-y", "appstore-connect-mcp"],
+      "args": ["-y", "asc-mcp-server"],
       "env": {
         "ASC_KEY_ID": "YOUR_KEY_ID",
         "ASC_ISSUER_ID": "YOUR_ISSUER_ID",
@@ -62,7 +62,7 @@ Add to `.cursor/mcp.json` in your project (or `~/.cursor/mcp.json` for global):
   "mcpServers": {
     "appstore-connect": {
       "command": "npx",
-      "args": ["-y", "appstore-connect-mcp"],
+      "args": ["-y", "asc-mcp-server"],
       "env": {
         "ASC_KEY_ID": "YOUR_KEY_ID",
         "ASC_ISSUER_ID": "YOUR_ISSUER_ID",
@@ -84,7 +84,7 @@ Add to `~/.gemini/antigravity/mcp_config.json` (or via **Agent pane → MCP Serv
   "mcpServers": {
     "appstore-connect": {
       "command": "npx",
-      "args": ["-y", "appstore-connect-mcp"],
+      "args": ["-y", "asc-mcp-server"],
       "env": {
         "ASC_KEY_ID": "YOUR_KEY_ID",
         "ASC_ISSUER_ID": "YOUR_ISSUER_ID",
@@ -95,7 +95,7 @@ Add to `~/.gemini/antigravity/mcp_config.json` (or via **Agent pane → MCP Serv
 }
 ```
 
-> **Tip:** Run `npx -y appstore-connect-mcp` once in your terminal first so the package is cached — Antigravity's first-run timeout can otherwise cause the server to fail to start.
+> **Tip:** Run `npx -y asc-mcp-server` once in your terminal first so the package is cached — Antigravity's first-run timeout can otherwise cause the server to fail to start.
 
 ## Available Tools
 
