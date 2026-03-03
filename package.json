@@ -1,6 +1,6 @@
 {
   "name": "asc-mcp-server",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "MCP server for Apple App Store Connect API — manage apps, builds, TestFlight, reviews and more",
   "type": "module",
   "bin": {
