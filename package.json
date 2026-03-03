@@ -12,7 +12,18 @@
     "start": "node build/index.js"
   },
   "files": [
-    "build"
+    "build",
+    "README.md"
+  ],
+  "keywords": [
+    "mcp",
+    "appstore",
+    "app-store-connect",
+    "apple",
+    "ios",
+    "testflight",
+    "builds",
+    "reviews"
   ],
   "license": "MIT",
   "dependencies": {
