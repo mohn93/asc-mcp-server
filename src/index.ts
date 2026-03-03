@@ -9,6 +9,10 @@ import { registerTestFlightTools } from "./tools/testflight.js";
 import { registerUsersTools } from "./tools/users.js";
 import { registerDevicesTools } from "./tools/devices.js";
 import { registerBundleIdsTools } from "./tools/bundle-ids.js";
+import { registerReviewsTools } from "./tools/reviews.js";
+import { registerCertificatesTools } from "./tools/certificates.js";
+import { registerSubscriptionsTools } from "./tools/subscriptions.js";
+import { registerAnalyticsTools } from "./tools/analytics.js";
 
 const server = new McpServer({
   name: "appstore-connect",
@@ -23,6 +27,10 @@ registerTestFlightTools(server);
 registerUsersTools(server);
 registerDevicesTools(server);
 registerBundleIdsTools(server);
+registerReviewsTools(server);
+registerCertificatesTools(server);
+registerSubscriptionsTools(server);
+registerAnalyticsTools(server);
 
 // Connect via stdio transport
 async function main() {
