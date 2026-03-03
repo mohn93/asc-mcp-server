@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.1](https://github.com/mohn93/appstore-connect-mcp/compare/asc-mcp-server-1.1.0...asc-mcp-server-1.1.1) (2026-03-03)
+
+
+### Bug Fixes
+
+* include README in npm package and add keywords ([14f7129](https://github.com/mohn93/appstore-connect-mcp/commit/14f7129fb264b2fa1346cd9469c1c7f69d361b03))
+
 ## [1.1.0](https://github.com/mohn93/appstore-connect-mcp/compare/asc-mcp-server-1.0.0...asc-mcp-server-1.1.0) (2026-03-03)
 
 
